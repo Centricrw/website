@@ -775,11 +775,18 @@ header.mobile-header-2 .site-logo img {
   max-height: 30px;
 }
 
+.teamimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .video{
-  position: absolute;
-			height: auto;
-			width: 100%;
-			left: 50%;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      left: 50%;
+      object-fit: cover;
 			-webkit-transform: translate3d(-50%,0,0);
 			transform: translate3d(-50%,0,0);
 			z-index: 1;
@@ -883,6 +890,7 @@ main.content-2.open {
 section {
   padding-top: 110px;
   position: relative;
+  z-index: 2;
 }
 
 section.home {
